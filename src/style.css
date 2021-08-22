@@ -1,0 +1,37 @@
+.preview
+{
+    min-height: 50vh;
+    width: auto;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.preview::-webkit-scrollbar
+{
+    overflow: hidden;
+}
+
+.nav-Link
+{
+    text-decoration: none;
+    padding: 1rem;
+    color: gray;
+}
+
+.aboutimg
+{
+    box-shadow: 0px 10px 37px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 10px 37px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 37px 0px rgba(0,0,0,0.75);
+
+border-radius: 10px;
+}
+.linkedin
+{
+    padding:10px 20px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.75);
+    
+}
